@@ -1,4 +1,4 @@
-# ARIM-Academy RDKitチュートリアル
+# RDKitチュートリアル
 
 ARIMデータポータル会員向けセミナー・ワークショップで提供する、RDKitを使った化学情報処理の教育用Jupyter Notebook教材です。GitHub: [ARIM-ACADEMY-2026/Advanced_Tutorial_2_RDKit](https://github.com/ARIM-ACADEMY-2026/Advanced_Tutorial_2_RDKit)
 
