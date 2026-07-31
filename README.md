@@ -1,14 +1,9 @@
 # RDKitチュートリアル
 
-ARIMデータポータル会員向けセミナー・ワークショップで提供するRDKitを使った化学情報処理の教育用Jupyter Notebook教材です。GitHub: [ARIM-ACADEMY-2026/Advanced_Tutorial_2_RDKit](https://github.com/ARIM-ACADEMY-2026/Advanced_Tutorial_2_RDKit)
+Pythonの基礎的な文法を理解している方を対象に提供するRDKitを使った化学情報処理の教育用Jupyter Notebook教材です。
 
 
-
-## 対象読者・前提知識
-
-- ARIMデータポータル会員の研究者・技術者
-- Pythonの基礎文法（変数、`import`、リスト、`for`文）は理解しているが、RDKit・pandasなどのライブラリには初めて触れる方を想定
-- 統計学・機械学習の予備知識は前提としない
+---
 
 ## ノートブック一覧
 
@@ -20,15 +15,12 @@ ARIMデータポータル会員向けセミナー・ワークショップで提�
 
 各ノートブックの冒頭に「対象読者・前提知識・動作環境・版とライセンス」ブロック、章末に「まとめ」「本ノートブックで扱っていないこと（今後の課題）」「演習問題」を掲載しています。
 
+## 対象読者・前提知識
 
-### 今後追加予定の内容
+- Python基礎文法（変数、リスト、for文、関数の呼び出し）を理解している方
+- RDKitのライブラリには初めて触れる方を想定
+- 統計学・機械学習の予備知識は前提としない
 
-`RDKit-2.ipynb`内で予告されている、以下のトピックは今後の回で扱う想定です。
-
-- 分子記述子の計算（`rdkit.Chem.Descriptors`）
-- 分子間の類似性評価（Morganフィンガープリント、Tanimoto係数）
-- 部分構造検索（SMARTSパターン）、無効なSMILES・パースエラーのハンドリング
-- 記述子・フィンガープリントを特徴量とした水溶解度予測モデルの構築（scikit-learn編との接続）
 
 ## 動作環境
 
@@ -65,9 +57,18 @@ GitHubリポジトリ全体（3冊構成）の構造は以下の通りです。
 ```
 
 
-## データの出典・ライセンス
+## データセットの出典
 
 - **RDKit本体**：BSD-3-Clauseライセンスで公開されているオープンソースソフトウェアです。
 - **アスピリンの構造データ**（`data/aspirin.mol`, `data/aspirin.sdf`）：[ChemSpider](https://www.chemspider.com/)（CSID: 2157）由来のデータを教材用に整形したものです。
 - **Delaney水溶解度データセット**（`data/dataset/delaney-processed.csv`）：John S. Delaney, "ESOL: Estimating Aqueous Solubility Directly from Molecular Structure", *J. Chem. Inf. Comput. Sci.*, **44**, 1000–1005 (2004). DOI: [10.1021/ci034243x](https://doi.org/10.1021/ci034243x)
-- 本リポジトリ全体は MIT License で公開されています（詳細はGitHubリポジトリの`LICENSE`を参照）。
+
+
+
+## ライセンス
+
+各ノートブックのコード部分はMITライセンスで提供します。データセットのライセンス・利用条件は上記の出典元に従ってください。Japan Housingデータセットは架空データのため、この限りではありません。
+
+## 更新履歴
+
+- 各ノートブックの詳細な変更点は、ノートブック内の記述および本リポジトリのコミット履歴を参照してください。
