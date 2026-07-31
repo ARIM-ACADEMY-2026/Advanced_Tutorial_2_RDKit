@@ -1,8 +1,8 @@
 # RDKitチュートリアル
 
-ARIMデータポータル会員向けセミナー・ワークショップで提供する、RDKitを使った化学情報処理の教育用Jupyter Notebook教材です。GitHub: [ARIM-ACADEMY-2026/Advanced_Tutorial_2_RDKit](https://github.com/ARIM-ACADEMY-2026/Advanced_Tutorial_2_RDKit)
+ARIMデータポータル会員向けセミナー・ワークショップで提供するRDKitを使った化学情報処理の教育用Jupyter Notebook教材です。GitHub: [ARIM-ACADEMY-2026/Advanced_Tutorial_2_RDKit](https://github.com/ARIM-ACADEMY-2026/Advanced_Tutorial_2_RDKit)
 
-> **このフォルダについて**：以下はGitHubリポジトリ全体（第一回〜第三回の3冊構成）を前提とした説明です。本ローカルフォルダには現時点で第三回（`RDKit-3.ipynb`）のみが存在します。第一回・第二回（`RDKit-1.ipynb`・`RDKit-2.ipynb`）とそれらが使うデータは、GitHubリポジトリを直接参照してください（詳細は「フォルダ構成」参照）。
+
 
 ## 対象読者・前提知識
 
@@ -20,7 +20,6 @@ ARIMデータポータル会員向けセミナー・ワークショップで提�
 
 各ノートブックの冒頭に「対象読者・前提知識・動作環境・版とライセンス」ブロック、章末に「まとめ」「本ノートブックで扱っていないこと（今後の課題）」「演習問題」を掲載しています。
 
-`RDKit-3.ipynb`が行うのは力場（UFF・MMFF）によるコンフォーマー探索・構造最適化であり、時間発展を伴う分子動力学（Molecular Dynamics, MD）とは異なる手法です（詳細はノートブック冒頭を参照）。
 
 ### 今後追加予定の内容
 
@@ -65,7 +64,6 @@ GitHubリポジトリ全体（3冊構成）の構造は以下の通りです。
 └── README.md
 ```
 
-> **本ローカルフォルダの実際の中身**：`RDKit-3.ipynb`・`data/aspirin.mol`・`data/smiles_10.csv`・`img/img-3.png`・`output/`・`util.py`・`README.md`のみです。`RDKit-1.ipynb`・`RDKit-2.ipynb`と、それらが使う`data/aspirin.sdf`・`data/aspirin_rdkit.*`・`data/dataset/delaney-processed.csv`は含まれていません（GitHubリポジトリを参照してください）。
 
 ## データの出典・ライセンス
 
@@ -73,7 +71,3 @@ GitHubリポジトリ全体（3冊構成）の構造は以下の通りです。
 - **アスピリンの構造データ**（`data/aspirin.mol`, `data/aspirin.sdf`）：[ChemSpider](https://www.chemspider.com/)（CSID: 2157）由来のデータを教材用に整形したものです。
 - **Delaney水溶解度データセット**（`data/dataset/delaney-processed.csv`）：John S. Delaney, "ESOL: Estimating Aqueous Solubility Directly from Molecular Structure", *J. Chem. Inf. Comput. Sci.*, **44**, 1000–1005 (2004). DOI: [10.1021/ci034243x](https://doi.org/10.1021/ci034243x)
 - 本リポジトリ全体は MIT License で公開されています（詳細はGitHubリポジトリの`LICENSE`を参照）。
-
-## 執筆者・レビュー担当者向け
-
-このプロジェクトのノートブックを追加・修正する場合は、[`CLAUDE.md`](./CLAUDE.md) に記載のコーディング規約・レビュー手順（`skills/edu-notebook-brushup/`）に従ってください。（本ローカルフォルダはARIM Code-ブラッシュアップ プロジェクトのDropbox編集用ワークスペースの一部としても管理されており、プロジェクトルート側の`CLAUDE.md`・`.claude/rules/coding-conventions.md`・`.claude/skills/edu-notebook-brushup/`が実際の編集方針の実体です。）
